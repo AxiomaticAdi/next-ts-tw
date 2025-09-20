@@ -7,9 +7,8 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "fix-all": "eslint --fix . && prettier --write ."
+    "format": "prettier . --write",
+    "fix-all": "eslint . --fix && prettier . --write"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
